@@ -1,0 +1,63 @@
+.card {
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: flex;
+    background: linear-gradient(to right, #cce2ea, #3ba2da); /* Gradient-colored background */
+  }
+  
+  .profile-img-container {
+    width: 30%; /* Adjust the width of the photo container */
+    padding: 20px;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .profile-details {
+    width: 70%; /* Adjust the width of the details container */
+    padding: 20px;
+    color: black; /* Text color changed to black */
+    font-family: Arial, sans-serif; /* Change font to Arial or any other appealing font */
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-box {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-link {
+    color: black; /* Link color changed to black */
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+  }
+  
